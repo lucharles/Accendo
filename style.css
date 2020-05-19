@@ -1,0 +1,226 @@
+/*From the Steven Angtuaco CSS Library: General Stylings */
+/* Helpful class layout rules */
+.block {
+  display: block;
+}
+
+.bottomfix {
+  position:fixed;
+  bottom: 0;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centerY{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fixed {
+  position: fixed;
+}
+
+.flex {
+  display: inline-flex;
+}
+
+.fullscreen {
+  display: block;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: start;
+}
+
+.grid2 > div {
+  /* border: 1px solid blue; */
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: start;
+}
+
+.grid3center {
+  display: grid;
+  grid-template-columns: 5vw 1fr 5vw;
+  grid-template-rows: auto;
+  align-items: start;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: start;
+
+  width: 100vw;
+}
+
+.grid4w {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  align-items: start;
+
+  width: 100vw;
+}
+
+.left {
+  float: left;
+}
+
+.nofloat {
+  float: none;
+}
+
+.right {
+  float: right;
+}
+
+.scrollX{
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scrollY{
+  overflow-y: scroll;
+}
+
+.spacer {
+  height: 1vh;
+  margin-top: 30vh;
+  width: 90vw;
+  display: inline-block;
+  background-color: rgba(0,0,0,0);
+  z-index: -99;
+
+
+}
+
+.sticky {
+  position: sticky;
+}
+
+.tall {
+  height: 100%;
+  max-height: 101vh;
+}
+
+.test {
+  /* border: 2px solid red; */
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.topfix {
+  position: fixed;
+  top: 0;
+}
+
+.wide {
+  width: 100%;
+  max-width: 101vw;
+}
+
+.vanished {
+  visibility: hidden;
+  transition: visibility 1s;
+}
+
+.unvanished {
+  visibility: visible !important;
+  transition: visibility 1s;
+}
+
+.wrapper {
+  background: none;
+}
+
+/*Basic Class Commands Breakpoint */
+@media screen and (max-width: 768px) {
+    .grid3center {
+      grid-template-columns: 2vw 1fr 2vw;
+    }
+}
+
+/*Font Commands */
+.bold {
+  font-weight: bold;
+}
+
+.grotesk { /*Untested */
+  font-family: "Minion Pro", Helvetica, Arial, sans-serif;
+}
+
+.grotesk h1 { /*Untested */
+  font-family: "Super Grotesk", "Minion Pro", Helvetica, Arial, sans-serif;
+}
+
+.instaFont {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.landscapeFit {
+  display: inline-block;
+  width: 60%;
+}
+
+.landscapeFitX {
+  display: inline-block;
+  width: 75%;
+}
+
+
+.playfair {
+  font-family:'Source Sans Pro', Arial, sans-serif;
+  font-size: 24px;
+  /*Paste this to header:
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  */
+  }
+
+.playfair h1 {
+  font-family: 'Playfair Display', 'Source Sans Pro', cursive, serif;
+  font-size: 19px;
+  /* Paste this to header:
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  */
+}
+
+.portraitFit {
+  display: inline-block;
+  height: 65%;
+}
+
+.portraitFitX {
+  display: inline-block;
+  height: 75%;
+}
+/*End Steven Angtuaco CSS Library */
+
+
+
+/*Accendo-specific CSS Stylings */
+
+  /*Accendo: Home */
+  /*END Accendo: Hone */
+
+  /*Accendo: Subpage T1 */
+  /*END Accendo: Subpage T1 */
+
+/*Accendo-specific CSS Stylings */
