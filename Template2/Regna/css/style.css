@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(18, 88, 238, 0.9); /*Header background color*/
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(18, 88, 238, 0.6); /*Hero color overlay*/
   position: absolute;
   bottom: 0;
   top: 0;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #2dc997;
+  background-color: #2dc997; /*Underline color*/
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
